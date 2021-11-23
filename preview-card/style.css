@@ -16,3 +16,156 @@ body {
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
 }
+
+.preview-card {
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  height: 100vh;
+}
+
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 25% auto 25% auto;
+  justify-content: center;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 350px;
+  padding: 3%;
+}
+
+.col:nth-child(1) {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 5px 0 0 5px;
+}
+
+.col:nth-child(2) {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.col:nth-child(3) {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 5px 5px 0;
+}
+
+.icon-first,
+.icon-second,
+.icon-third {
+  position: relative;
+}
+
+.icon-first .circle,
+.icon-second .circle,
+.icon-third .circle {
+  font-size: 150%;
+}
+
+.icon-first .car,
+.icon-second .car,
+.icon-third .car {
+  font-size: 130%;
+  position: absolute;
+  left: 7%;
+  top: 5%;
+}
+
+.icon-first .circle {
+  color: hsl(30, 79%, 44%);
+}
+
+.icon-first .car {
+  color: hsl(36, 100%, 30%);
+}
+
+.icon-second .circle {
+  color: hsl(184, 50%, 21%);
+}
+
+.icon-second .car {
+  color: hsl(183, 29%, 47%);
+}
+
+.icon-third .circle {
+  color: hsl(179, 41%, 21%);
+}
+
+.icon-third .car {
+  color: hsl(179, 69%, 25%);
+}
+
+.title {
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+
+h3 {
+  font-size: 120%;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.753);
+  font-weight: 200%;
+}
+
+p {
+  font-size: 65%;
+  color: rgba(255, 255, 255, 0.753);
+}
+
+.btn:link,
+.btn:visited,
+input[type="submit"] {
+  display: block;
+  margin-top: 15%;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.753);
+  padding: 5%;
+  width: 65%;
+  font-size: 60%;
+  text-align: center;
+  border-radius: 200px;
+  transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+}
+
+.btn-first:link,
+.btn-first:visited {
+  border: 1px solid hsl(30, 79%, 44%);
+  color: hsl(30, 79%, 44%);
+}
+
+.btn-first:hover,
+.btn-first:active {
+  border: 1px solid hsl(30, 90%, 40%);
+  color: #fff;
+  background-color: hsl(30, 90%, 40%);
+}
+
+.btn-second:link,
+.btn-second:visited {
+  border: 1px solid hsl(184, 50%, 21%);
+  color: hsl(184, 50%, 21%);
+}
+
+.btn-second:hover,
+.btn-second:active {
+  border: 1px solid hsl(181, 51%, 19%);
+  color: #fff;
+  background-color: hsl(181, 51%, 19%);
+}
+
+.btn-third:link,
+.btn-third:visited {
+  border: 1px solid hsl(179, 41%, 21%);
+  color: hsl(179, 41%, 21%);
+}
+
+.btn-third:hover,
+.btn-third:active {
+  border: 1px solid hsl(184, 50%, 21%);
+  color: #fff;
+  background-color: hsl(184, 50%, 21%);
+}
