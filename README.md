@@ -1,3 +1,3 @@
-# frontend
+# frontend [HTML, CSS, JS]
+Just created simple frontend components for the best practices and using in my future projects.
 
-I just transform my ideas to frontend reusable codes in my future personal projects.
