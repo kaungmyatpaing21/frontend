@@ -1,0 +1,60 @@
+@media only screen and (max-width: 1200px) {
+  .preview-card {
+    width: 100%;
+  }
+}
+
+/* Small tablet to big tablets: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 55%;
+  }
+
+  .btn:link,
+  .btn:visited {
+    width: 100%;
+  }
+}
+
+/* Small phones: from 481 to 767px */
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 18px;
+  }
+
+  .preview-card {
+    height: auto;
+  }
+
+  .columns {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .col {
+    margin: auto;
+    width: 230px;
+  }
+
+  .col:first-child {
+    border-radius: 5px 5px 0 0;
+  }
+
+  .col:last-child {
+    border-radius: 0 0 5px 5px;
+  }
+
+  p {
+    font-size: 72%;
+  }
+
+  .btn:link,
+  .btn:visited {
+    width: 100%;
+  }
+}
